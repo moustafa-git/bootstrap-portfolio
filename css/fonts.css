@@ -1,0 +1,10 @@
+/* Fonts */
+@font-face {
+  font-family: Poppins;
+  src: url("./../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("./../fonts/Montserrat-VariableFont_wght.ttf");
+}

@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio landing page done with bootstrap"
+    />
+    <meta name="keywords" content="Portfolio Bootstrap" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <title>Daniels</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <script defer src="./js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navId">
+    <!-- Navbar -->
+    <nav id="navId" class="navbar navbar-expand-lg fixed-top py-3">
+      <div class="container">
+        <div class="">
+          <a class="navbar-brand pt-20" href="#">DANIELS</a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-md-auto mb-2 mb-lg-0 gap-4">
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#portfolio">Works</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item m-lg-0 px-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+     <div class="wrapper">
+
+       <header class="header" id="home">
+         <!-- Header -->
+         <div
+           class="container vh-100 d-flex flex-column justify-content-center align-items-center"
+         >
+           <header class="text-white text-center header-content mb-4">
+             <h2>Hello</h2>
+             <h1>I Am <span id="element"></span></h1>
+             <!-- Load library from the CDN -->
+             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+             <!-- Setup and start animation! -->
+             <script>
+               var typed = new Typed("#element", {
+                 strings: ["Developer", "Moustafa Darwish"],
+                 typeSpeed: 40,
+                 loop: true,
+                 backDelay: 2000,
+                 backSpeed: 40,
+               });
+             </script>
+           </header>
+   
+           <div class="links text-white">
+             <ul class="d-flex">
+               <li>
+                 <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+               </li>
+               <li>
+                 <a href=""><i class="fa-brands fa-twitter"></i></a>
+               </li>
+               <li>
+                 <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+               </li>
+               <li>
+                 <a href=""><i class="fa-brands fa-behance"></i></a>
+               </li>
+               <li>
+                 <a href=""><i class="fa-brands fa-youtube"></i></a>
+               </li>
+             </ul>
+           </div>
+         </div>
+         <!-- End of Header -->
+       </header>
+     </div>
+    <main>
+      <!-- About Section -->
+      <section id="about" class="py-5 about">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 col-xxl-4 mb-5 mb-lg-0">
+              <div class="inner-fig">
+                <figure class="figure position-relative">
+                  <img
+                    src="./images/hero.jpg"
+                    alt="profile-pic"
+                    class="d-block"
+                  />
+                </figure>
+              </div>
+            </div>
+            <div class="col-lg-7 ps-lg-5 col-xxl-8">
+              <div class="inner">
+                <article>
+                  <h2 class="mb-1">About Me</h2>
+                  <p class="mb-4">
+                    <span>UI / UX Designer & Web Developer</span>
+                  </p>
+                  <p class="mb-4">
+                    I am <strong>Jerry Daniels</strong> Lorem Ipsum is simply
+                    dummy text of the printing and typesetting industry. Lorem
+                    Ipsum has been the industry's standard dummy text ever It
+                    has survived not only five centuries, but also the leap into
+                    electronic but also the leap into electronic typesetting,
+                    remaining essentially unchanged. It was popularised in the
+                    1960s with the release of Letraset sheets containing
+                  </p>
+                </article>
+
+                <div class="stat">
+                  <div
+                    class="stat-inner d-flex text-white justify-content-between px-2 justify-content-center align-items-center web"
+                  >
+                    <p>Web Design</p>
+                    <p>95%</p>
+                  </div>
+                </div>
+                <div class="stat">
+                  <div
+                    class="stat-inner d-flex text-white justify-content-between px-2 justify-content-center align-items-center brand"
+                  >
+                    <p>Branding</p>
+                    <p>80%</p>
+                  </div>
+                </div>
+                <div class="stat mb-5">
+                  <div
+                    class="stat-inner d-flex text-white justify-content-between px-2 justify-content-center align-items-center dev"
+                  >
+                    <p>Development</p>
+                    <p>90%</p>
+                  </div>
+                </div>
+                <button type="button" class="btn cv">Download C.V</button>
+                <button type="button" class="btn contact">Contact Me</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of About Section -->
+      <!-- Services Section -->
+      <section id="services" class="services py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="">Services.</h2>
+          </header>
+          <div class="row gy-4">
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-laptop fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Web Design</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-bullhorn fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Branding</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-umbrella fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Development</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-diamond fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Creative Design</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-television fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Fully Responsive</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card text-center align-items-center">
+                <i class="fa fa-camera fa-xl icon mb-3"></i>
+                <h3 class="mb-4">Retina Ready</h3>
+                <div class="card-body">
+                  <p class="card-text">
+                    Lorem Ipsum is simply dummy text of the Lorem Ipsum has been
+                    the industry's standard dummy text ever
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Services Section -->
+      <!-- Porfolio Section -->
+      <section id="portfolio" class="portfolio py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="">Portfolio.</h2>
+          </header>
+          <ul class="nav mb-5 justify-content-center" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link active"
+                id="all-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#all-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="all-tab-pane"
+                aria-selected="true"
+              >
+                All
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="brand-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#brand-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="brand-tab-pane"
+                aria-selected="false"
+              >
+                Brand
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="design-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#design-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="design-tab-pane"
+                aria-selected="false"
+              >
+                Design
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button
+                class="nav-link"
+                id="graphic-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#graphic-tab-pane"
+                type="button"
+                role="tab"
+                aria-controls="graphic-tab-pane"
+                aria-selected="false"
+              >
+                Graphic
+              </button>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div
+              class="tab-pane fade show active"
+              id="all-tab-pane"
+              role="tabpanel"
+              aria-labelledby="all-tab"
+              tabindex="0"
+            >
+              <div class="row g-md-4 gy-4">
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/1.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/2.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/3.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/4.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/5.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          >
+                          </i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/6.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="brand-tab-pane"
+              role="tabpanel"
+              aria-labelledby="brand-tab"
+              tabindex="0"
+            >
+              <div class="row g-md-4 gy-4">
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/4.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/6.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="design-tab-pane"
+              role="tabpanel"
+              aria-labelledby="design-tab"
+              tabindex="0"
+            >
+              <div class="row g-md-4 gy-4">
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/2.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/5.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="graphic-tab-pane"
+              role="tabpanel"
+              aria-labelledby="graphic-tab"
+              tabindex="0"
+            >
+              <div class="row g-md-4 gy-4">
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/1.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/3.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                  <figure class="fig">
+                    <img
+                      src="./images/portfolio/5.jpg"
+                      class="w-100 d-block"
+                      alt="1"
+                    />
+                    <figcaption
+                      class="fig-caption d-flex justify-content-center align-items-center flex-column"
+                    >
+                      <h3>WEB DESIGN</h3>
+                      <div class="card-links d-flex gap-1">
+                        <a
+                          href="#portfolio"
+                          class="d-flex justify-content-center align-items-center"
+                          ><i class="fa-solid fa-link"></i
+                        ></a>
+                        <a
+                          class="d-flex justify-content-center align-items-center"
+                          ><i
+                            class="fa-solid fa-magnifying-glass-plus"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                          ></i
+                        ></a>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div id="port" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./images/portfolio/1.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./images/portfolio/2.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./images/portfolio/3.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./images/portfolio/4.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./images/portfolio/5.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./images/portfolio/6.jpg"
+                            class="d-block w-100"
+                            alt="..."
+                          />
+                        </div>
+                      </div>
+                      <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#port"
+                        data-bs-slide="prev"
+                      >
+                        <span
+                          class="carousel-control-prev-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#port"
+                        data-bs-slide="next"
+                      >
+                        <span
+                          class="carousel-control-next-icon"
+                          aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Portfolio Section -->
+
+      <!-- Start of Testimonials section -->
+      <section id="clients" class="clients py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="">Testimonials.</h2>
+          </header>
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide d-flex flex-column align-items-center justify-content-center text-center"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <figure class="fig">
+                  <img
+                    src="./images/1_New1.jpg"
+                    class="rounded-circle"
+                    alt="..."
+                  />
+                </figure>
+                <figcaption>
+                  <blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fugiat accusamus eum, debitis magni commodi corrupti ab
+                      fuga itaque. Facere, voluptatibus dolorum. Culpa delectus
+                      mollitia hic eius odit dolor perspiciatis suscipit?
+                    </p>
+                  </blockquote>
+                  <p>
+                    <span>Alex Smith </span> <br /><cite>Envato Customer</cite>
+                  </p>
+                </figcaption>
+              </div>
+              <div class="carousel-item">
+                <figure class="fig">
+                  <img
+                    src="./images/1_New1.jpg"
+                    class="rounded-circle"
+                    alt="..."
+                  />
+                </figure>
+                <figcaption>
+                  <blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fugiat accusamus eum, debitis magni commodi corrupti ab
+                      fuga itaque. Facere, voluptatibus dolorum. Culpa delectus
+                      mollitia hic eius odit dolor perspiciatis suscipit?
+                    </p>
+                  </blockquote>
+                  <p>
+                    <span>Alex Smith </span> <br /><cite>Envato Customer</cite>
+                  </p>
+                </figcaption>
+              </div>
+              <div class="carousel-item">
+                <figure class="fig">
+                  <img
+                    src="./images/1_New1.jpg"
+                    class="rounded-circle"
+                    alt="..."
+                  />
+                </figure>
+                <figcaption>
+                  <blockquote cite="https://www.huxley.net/bnw/four.html">
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Fugiat accusamus eum, debitis magni commodi corrupti ab
+                      fuga itaque. Facere, voluptatibus dolorum. Culpa delectus
+                      mollitia hic eius odit dolor perspiciatis suscipit?
+                    </p>
+                  </blockquote>
+                  <p>
+                    <span>Alex Smith </span> <br /><cite>Envato Customer</cite>
+                  </p>
+                </figcaption>
+              </div>
+            </div>
+            <div class="carousel-indicators position-static mt-4">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Testimonials section -->
+
+      <!-- Start of stats section -->
+      <section class="py-5 stat-num">
+        <div class="container">
+          <div class="row gy-4 gy-lg-0">
+            <div class="col-lg-3">
+              <div class="inner text-center">
+                <i class="fa fa-users fa-2x mb-3"></i>
+                <p class="mb-3">850</p>
+                <h2>Happy Customers</h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner text-center">
+                <i class="fa fa-thumbs-up fa-2x mb-3"></i>
+                <p class="mb-3">230</p>
+                <h2>Completed Projects</h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner text-center">
+                <i class="fa fa-bullhorn fa-2x mb-3"></i>
+                <p class="mb-3">9450</p>
+                <h2>Lines Of Code</h2>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="inner text-center">
+                <i class="fa fa-cloud-download fa-2x mb-3"></i>
+                <p class="mb-3">780</p>
+                <h2>Files Downloaded</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of stats section -->
+
+      <!-- start of Team Section -->
+      <section id="team" class="team py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="">Our Team.</h2>
+          </header>
+          <div class="row gy-3 gy-lg-0">
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <figure class="position-relative">
+                  <img src="./images/1.jpg" class="card-img-top" alt="...">
+                  <div class="link-layer">
+                    <ul class="d-flex gap-3 justify-content-center align-items-center h-100">
+                      <li><a href=""><i class="fa-brands fa-facebook-f"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-twitter"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-linkedin-in"></i> </a></li>
+                    </ul>
+                  </div>
+                </figure>
+                <div class="card-body">
+                  <figcaption class="text-center text-white">
+                    <h3>Jhone Doe</h3>
+                    <h4>FRONT-END DEVELOPER</h4>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <figure class="position-relative">
+                  <img src="./images/2.jpg" class="card-img-top" alt="...">
+                  <div class="link-layer">
+                    <ul class="d-flex gap-3 justify-content-center align-items-center h-100">
+                      <li><a href=""><i class="fa-brands fa-facebook-f"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-twitter"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-linkedin-in"></i> </a></li>
+                    </ul>
+                  </div>
+                </figure>
+                <div class="card-body">
+                  <figcaption class="text-center text-white">
+                    <h3>Jhone Doe</h3>
+                    <h4>FRONT-END DEVELOPER</h4>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="card">
+                <figure class="position-relative">
+                  <img src="./images/1.jpg" class="card-img-top" alt="...">
+                  <div class="link-layer">
+                    <ul class="d-flex gap-3 justify-content-center align-items-center h-100">
+                      <li><a href=""><i class="fa-brands fa-facebook-f"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-twitter"></i> </a></li>
+                      <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+                      <li><a href=""><i class="fa-brands fa-linkedin-in"></i> </a></li>
+                    </ul>
+                  </div>
+                </figure>
+                <div class="card-body">
+                  <figcaption class="text-center text-white">
+                    <h3>Jhone Doe</h3>
+                    <h4>FRONT-END DEVELOPER</h4>
+                  </figcaption>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Team Section -->
+
+      <!-- Start od Contact section -->
+      <section id="contact" class="contact py-5">
+        <div class="container">
+          <header class="section-header text-center mb-5">
+            <h2 class="">Contact Us.</h2>
+          </header>
+          <div class="row gy-5 mb-5">
+            <div class="col-lg-4">
+              <div class="inner text-center d-flex flex-column justify-content-center align-items-center">
+                <div class="icon mb-2">
+                  <a href=""><i class="fa fa-location-arrow fa-xl"></i></a>
+                </div>
+                <h3 class="mb-2">Address</h3>
+                <p>6834 Hollywood Blvd - Los Angeles CA</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="inner text-center d-flex flex-column justify-content-center align-items-center">
+                <div class="icon mb-2">
+                  <a href=""><i class="fa fa-envelope fa-xl"></i></a>
+                </div>
+                <h3 class="mb-2">Email</h3>
+                <p>Support@website.com</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="inner text-center d-flex flex-column justify-content-center align-items-center">
+                <div class="icon mb-2">
+                  <a href=""><i class="fa fa-phone fa-xl"></i></a>
+                </div>
+                <h3 class="mb-2">Phone</h3>
+                <p>+20 010 2517 8918</p>
+              </div>
+            </div>
+          </div>
+          <!-- FORM -->
+          <form>
+            <div class="row mb-3 g-4">
+              <div class="col-lg-6">
+                <input type="text" class="form-control" placeholder="Name" aria-label="First name">
+              </div>
+              <div class="col-lg-6">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Last name">
+              </div>
+            </div>
+            <textarea placeholder="Message" class="w-100 mb-3"></textarea>
+            <button type="submit" class="btn cv submit">Submit</button>
+          </form>
+        </div>
+      </section>
+      <!-- end of Contact section -->
+    </main>
+    <footer class="footer text-center">
+      <div class="continer">
+        <p>Copy Right 2018 © By Daniels All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
