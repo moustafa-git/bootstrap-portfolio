@@ -11,6 +11,7 @@
 
 ## Live Site: https://resilient-stardust-a6e43a.netlify.app/
 
+![Demo](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN3JqaHl4MTZ6ZG9nOHNxZjJ4ZnlhODRudDBiM3RvNm1mbDJ0amNjaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/fbt5ioUvkVQdIAltD5/giphy.gif)
 
 
 ## <a name="features">🔋 Add ons</a>
