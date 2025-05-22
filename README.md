@@ -19,7 +19,11 @@
 
 👉 **SEO Friendly**
 
-![Logo](./images/1.png)
-![Logo](./images/2.png)
-![Logo](./images/3.png)
-![Logo](./images/4.png)
+![Logo](./screenshots/1.png)
+![Logo](./screenshots/2.png)
+![Logo](./screenshots/3.png)
+![Logo](./screenshots/4.png)
+![Logo](./screenshots/5.png)
+![Logo](./screenshots/6.png)
+![Logo](./screenshots/7.png)
+
